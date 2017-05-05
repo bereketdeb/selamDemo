@@ -1,4 +1,4 @@
-package com.selam.com;
+package com.selam;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
