@@ -13,6 +13,5 @@ hs_err_pid*
 
 target
 .idea
-.classpath
-.settings
+
 selamdemo.iml
