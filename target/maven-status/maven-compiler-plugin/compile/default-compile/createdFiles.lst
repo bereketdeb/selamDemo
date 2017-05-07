@@ -1,2 +1,2 @@
 com\selam\SelamDemoApplication.class
-com\selam\Test.class
+com\selam\web\controllers\indexController.class
