@@ -6,6 +6,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.junit4.SpringRunner;
@@ -14,6 +15,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 @RunWith(SpringJUnit4ClassRunner.class) //When a class is annotated with @RunWith or extends a class annotated with @RunWith ,
 // JUnit will invoke the class it references to run the tests in that class instead of the runner built into JUnit.
 @ContextConfiguration(classes = SelamDemoApplication.class)
+//@SpringBootTest
 @WebAppConfiguration
 public class SelamDemoApplicationTests {
 
@@ -31,3 +33,4 @@ public class SelamDemoApplicationTests {
 
 
 }
+
