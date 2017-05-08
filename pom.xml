@@ -54,6 +54,13 @@
 			<artifactId>jquery</artifactId>
 			<version>2.1.4</version>
 		</dependency>
+
+		<!-- logging dependecy -->
+
+		<dependency>
+			<groupId>ch.gos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+		</dependency>
 		
 		
 	</dependencies>
