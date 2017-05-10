@@ -1,19 +1,27 @@
 
-
-body {
-    padding-bottom: 40px;
-    color: #5a5a5a;
-}
-
 .starter-template{
     padding: 40px 15px;
     text-align: center;
 }
+body{
+    padding-bottom: 100px;
+    color: #5a5a5a;
+}
+html {
+    padding-bottom: 50px;
+    position: relative;
+    min-height: 100%;
+}
+
+
+
+
 
 /*=====imports======*/
 /* GLOBAL STYLES
    -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
+
 
 
 
