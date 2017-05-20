@@ -1,0 +1,703 @@
+
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="en" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home | Selam Entertainment</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta property="og:site_name" content="Selam Entertainment"/>
+    <meta property="og:url" content="https://www.selamentertainment.com/" />
+    <meta property="og:title" content=" Home | Selam Entertainment "/>
+    <meta property="og:description" content="  "/>
+    <link rel="icon" type="image/*" href="https://dnldqm9cso35u.cloudfront.net/public/afromovie/favicon/eTMynzoqc_1490227422.jpg" />
+    <link rel="canonical" href="https://www.selamentertainment.com" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic,300italic,300,600italic,600,400italic,800,800italic' rel='stylesheet' type="text/css" />
+    <link rel="stylesheet" href="https://www.selamentertainment.com/css/jquery-ui.min.css" type="text/css" />
+
+    <link href="/webjars/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <link type="text/css" href="/css/carousel.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="/css/black-green.css" />
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="/css/responsive.css" />
+
+    <link rel="stylesheet" type="text/css" href="/css/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+
+    <script type="text/javascript" src="/webjars/jquery/2.1.4/jquery.min.js"></script>
+    <!--
+    <script type="text/javascript" src="https://www.selamentertainment.com/js/jquery.min.js"></script>
+     <link rel="stylesheet" type="text/css" href="https://www.selamentertainment.com/common/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://www.selamentertainment.com/themes/afromovie/css/black-green.css" />
+    <link rel="stylesheet" type="text/css" href="https://www.selamentertainment.com/themes/afromovie/css/styles.css" />-->
+
+    <script>
+        $(document).ready(function() {
+            $('#user_menu').addClass('nav navbar-nav navbar-right');
+            $('.joinnow').addClass('btn btn-lg btn-primary');
+            $("#review").find('.btn').addClass("btn-primary top20");
+            $('.detailspage').find('.playbtn').addClass('btn btn-primary playnowbtn');
+            $('.detailspage').find('.playbtn').removeClass('playbtn');
+
+            $('.playbtn').html('');
+            $('.plan-box').each(function(i) {
+                if (i === 0) {
+                    $(this).find(".tick-icon").css("display", "block");
+                } else {
+                    $(this).find(".tick-icon").css("display", "none");
+                }
+            });
+            jQuery("img.lazy").lazy();
+        });
+    </script>
+
+    <!--
+            <script type="text/javascript">var HTTP_ROOT ="https://www.selamentertainment.com";
+            var THEME_URL ="https://www.selamentertainment.com/themes/afromovie";
+            var website_url ="https://www.selamentertainment.com";
+            var json = '{\"a_network_error_caused_the\":\"A network error caused the media download to fail part-way.\",' +
+                '\"a_network_error_caused\":\"A network error caused the video download to fail part-way.\",' +
+                '\"add_to_fav\":\"Add to Favorites\",\"added_to_fav\":\"Added to Favorites\",\"action_card\":' +
+                '\"Are you sure you want to $action card?\",\"delete_address\":\"Are you sure you want to delete address?\",' +
+                '\"confirm_sisp_payment\":\"Are you sure, you want to process transaction ?\",\"confirm_existing_card\":' +
+                '\"Are you sure, you want to process transaction from existing card?\",\"card\":\"Card\",\"coupon_already_used\":' +
+                '\"Coupon already used.\",\"email_exists\":\"Email already exists\",\"email_exists_us\":' +
+                '\"Email is already registered with our website.\",\"enter_quantity\":\"Enter Quantity\",' +
+                '\"error_updating_profile\":\"Error in updating profile\",\"expiry_month\":\"Expiry Month\",\"invalid_coupon\":' +
+                '\"Invalid Coupon!\",\"invalid_voucher\":\"Invalid Voucher!\",\"auth_your_account\":' +
+                '\"Just a moment... we\'re authenticating your account.<br\\/>Please don\'t refresh or close this page.\",\"auth_your_card_js\":' +
+                '\"Just a moment... we\'re authenticating your card.<br\\/>Please don\'t refresh or close this page.\",\"login_failed_try_again\":\"Login failed! Try again.\",\"name_minlength\":\"Name must be atleast of 5 characters long\",\"no_compatible_source_was_found\":\"No compatible source was found for this media.\",\"no_compatible_source\":\"No compatible source was found for this video.\",\"only_register_checkout\":\"Oops! Only Registered Users can Checkout!\",\"saving_error\":\"Oops! there is some error in saving the data.\",\"password_atleast_6_char\":\"Password must be of at least 6 characters.\",\"password_donot_match\":\"Passwords do not match\",\"password_not_match\":\"Passwords do not match.\",\"no_action_while_payment\":\"Performing any action while payment is in progress will interrupt the payment. Please wait for order to complete.\",\"sign_in_continue\":\"Please Sign in to continue\",\"sign_up_continue\":\"Please Sign up to continue\",\"choose_option\":\"Please choose option\",\"choose_season\":\"Please choose season\",\"term_privacy_policy_required\":\"Please confirm the terms and privacy policy\",\"international_bank_account_validate\":\"Please enter a valid International Bank Account Number (IBAN)\",\"valid_url\":\"Please enter a valid URL\",\"card_number_required\":\"Please enter a valid card number\",\"city_address_validate\":\"Please enter a valid city address\",\"country_address_validate\":\"Please enter a valid country\",\"valid_credit_card_number\":\"Please enter a valid credit card number.\",\"valid_date\":\"Please enter a valid date.\",\"valid_email\":\"Please enter a valid email address\",\"card_name_required\":\"Please enter a valid name\",\"valid_number\":\"Please enter a valid number.\",\"valid_phone_no\":\"Please enter a valid phone number\",\"postal_code_address_validate\":\"Please enter a valid postal code\",\"street_address_validate\":\"Please enter a valid street address\",\"valid_text\":\"Please enter a valid text\",\"atleast_2_char\":\"Please enter at least 2 characters.\",\"valid_confirm_password\":\"Please enter confirm password\",\"enter_cvv\":\"Please enter correct cvv\",\"enter_correct_phone\":\"Please enter correct phone number\",\"email_required\":\"Please enter email address\",\"only_digits\":\"Please enter only digits.\",\"registered_email\":\"Please enter registered email\",\"security_code_required\":\"Please enter security code\",\"same_value_again\":\"Please enter the same value again.\",\"please_enter_your_comment\":\"Please enter your comment\",\"full_name_required\":\"Please enter your full name\",\"please_enter_message\":\"Please enter your message\",\"password_required\":\"Please enter your password\",\"fix_this_field\":\"Please fix this field\",\"select_episode\":\"Please select episode\",\"expiry_month_required\":\"Please select expiry month\",\"expiry_year_required\":\"Please select expiry year\",\"profile_updated\":\"Profile updated successfully.\",\"register_success\":\"Registered Successfully\",\"registration_successful\":\"Registration Successful\",\"season\":\"Season\",\"shipping_not_allowed_to_this_country\":\"Shipping is not allowed to this country\",\"special_char_not_allowed_except\":\"Special charecters not allowed except\",\"thanks_account_auth_sucess\":\"Thank you, Your account has been authenticated successfully.\",\"thanks_card_auth_sucess_js\":\"Thank you, Your card has been authenticated successfully.\",\"the_media_could_not_be_loaded\":\"The media could not be loaded, either because the server or network failed or because the format is not supported.\",\"the_media_is_encrypted\":\"The media is encrypted and we do not have the keys to decrypt it.\",\"the_media_playback_was_aborted\":\"The media playback was aborted due to a corruption problem or because the media used features your browser did not support.\",\"the_video_could_not_be_loaded\":\"The video could not be loaded, either because the server or network failed or because the format is not supported.\",\"the_video_is_encrypted\":\"The video is encrypted and we do not have the keys to decrypt it.\",\"the_video_playback_was_aborted\":\"The video playback was aborted due to a corruption problem or because the video used features your browser did not support.\",\"field_required\":\"This field is required\",\"free_content\":\"This is a Free Content!\",\"voucher_already_used\":\"Voucher already used!\",\"credit_card_error\":\"We are not able to process your credit card. Please try another card.\",\"you_aborted_the_media_playback\":\"You aborted the media playback\",\"you_aborted_the_video_playback\":\"You aborted the video playback\",\"already_purchased_content\":\"You have already purchased selected content!\",\"incorrect_email_or_password\":\"You have entered incorrect email or password\",\"name_atleast_5_char\":\"Your name should be of at least 5 characters.\",\"password_minlength\":\"Your password must be atleast 6 characters long\",\"min_3_char_req\":\"minimum 3 characters required\",\"select_season\":\"please select season\",\"wait\":\"wait!...\"}';
+            var JSLANGUAGE = JSON.parse(json);var PAYMENT_GATEWAY = "";
+            var imageAddr = [], downloadSize = [], desc = [];window.setTimeout(function() {
+                $(".alert").remove();
+                $(".navbar-fixed-top, .navbar-wrapper").css("top", "0px");
+            }, 5000);$(document).ready(function(){
+                if($(".alert").length) {
+                    $(".navbar-fixed-top, .navbar-wrapper").css("top", "50px");
+                    $(".alert .close").click(function(){
+                        $(".navbar-fixed-top, .navbar-wrapper").css("top", "0px");
+                    });
+                }
+                $(".search_field").bind("keypress keydown keyup", function(e) {
+                    var search_val = $(".search_field").val();
+                    if (e.keyCode == 13 && search_val == "") {
+                        e.preventDefault();
+                    }
+                });
+                $(".playbtn").click(function () {
+                    $("#to_play").val("play");
+                    $("#play_url").val($(this).prop("id"));
+                });
+
+                jQuery.validator.addMethod("mail", function (value, element) {
+                    return this.optional(element) || /^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,10}|[0-9]{1,3})(\]?)$/.test(value);
+                }, JSLANGUAGE.valid_email);
+                jQuery.validator.addMethod("email", function (value, element) {
+                    return this.optional(element) || /^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,10}|[0-9]{1,3})(\]?)$/.test(value);
+                }, JSLANGUAGE.valid_email);
+                jQuery.validator.addMethod("cc", function (value, element) {
+                    return this.optional(element) || /^(?:3[47]\d|(?:4\d|5[1-5]|65)\d{2}|6011)\d{12}$/.test(value);
+                }, JSLANGUAGE.card_number_required);
+                $.validator.addMethod("textonly", function(value, element) {
+                    return this.optional(element) || /[a-zA-Z]{1}/i.test(value);
+                }, JSLANGUAGE.valid_text);
+                jQuery.validator.addMethod("cvv", function (value, element) {
+                    return this.optional(element) || /^[0-9]{3,4}$/.test(value);
+                },JSLANGUAGE.enter_cvv);
+
+                jQuery.validator.addMethod("phone", function (value, element) {
+                    return this.optional(element) || /^((\+\d{1,3}(-| )?\(?\d\)?(-| )?\d{1,5})|(\(?\d{3,6}\)?))(-| )?(\d{3,4})(-| )?(\d{4})(( x| ext)\d{1,5}){0,1}$/.test(value);
+                }, JSLANGUAGE.enter_correct_phone);
+            });
+            console.log(6.29);(function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-93480835-1', 'auto');
+            ga('send', 'pageview');</script>
+
+          -->
+</head>
+
+<body>
+
+
+
+
+
+<div class="navbar-wrapper" style="top: 0px;">
+    <div class="container">
+        <nav class="navbar navbar-inverse navbar-static-top">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://www.selamentertainment.com">
+                    <img src="https://dnldqm9cso35u.cloudfront.net/public/afromovie/logos/logo_1490292302.png" title="Selam Entertainment" class="img-responsive" alt="Selam Entertainment"/></a>
+            </div>
+
+
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav" id="main-top-menu"><li class="dropdown "><a href="https://www.selamentertainment.com/movie" class="dropdown-toggle js-activated disabled">Movie<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="https://www.selamentertainment.com/amharic">AMHARIC</a></li><li><a href="https://www.selamentertainment.com/arabic">Arabic</a></li><li><a href="https://www.selamentertainment.com/english">English</a></li><li><a href="https://www.selamentertainment.com/tigrigna1">TIGRIGNA</a></li></ul></li><li class="dropdown "><a href="https://www.selamentertainment.com/tv" class="dropdown-toggle js-activated disabled">TV Series<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="https://www.selamentertainment.com/amharic1">AMHARIC</a></li><li><a href="https://www.selamentertainment.com/arabic1">Arabic</a></li><li><a href="https://www.selamentertainment.com/english1">English</a></li><li><a href="https://www.selamentertainment.com/tigrigna2">TIGRIGNA</a></li></ul></li><li class="dropdown "><a href="https://www.selamentertainment.com/movie-1" class="dropdown-toggle js-activated disabled">Video Clip<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="https://www.selamentertainment.com/amharic2">AMHARIC</a></li><li><a href="https://www.selamentertainment.com/arabic2">Arabic</a></li><li><a href="https://www.selamentertainment.com/english2">English</a></li><li><a href="https://www.selamentertainment.com/tigrigna">TIGRIGNA</a></li></ul></li><li class="dropdown "><a href="https://www.selamentertainment.com/#" class="dropdown-toggle js-activated disabled">More<span class="caret"></span></a><ul class="dropdown-menu"><li><a href="https://www.selamentertainment.com/terms-privacy-policy">Terms &amp; Privacy Policy</a></li></ul></li></ul>
+
+
+                <ul id="user_menu" class="nav navbar-nav navbar-right"><li class="notlogin"><a href="https://www.selamentertainment.com/user/register"><i class="fa fa-user"></i> Register</a></li><li class="notlogin"><a href="https://www.selamentertainment.com/user/login"><i class="fa fa-lock"></i> Login</a></li></ul>
+                <ul class="nav navbar-nav navbar-right">
+
+
+                    <li>
+
+                        <form class="navbar-form" onsubmit="return validate_search();" action="/search/show_all" id="search-form">
+                            <div class="input-group stylish-input-group">
+                                <input class="form-control ui-autocomplete-input" id="siteSearch" placeholder="Search" name="search_field" autocomplete="off" type="text"/>
+                                <input name="csrfToken" id="csrfToken" value="WwY+wAIjMWgMmCXGzx/Xuc2OOV1/K6t8kyS6AHnEJ7k=" type="hidden"/>
+                                <div class="input-group-btn">
+                                    <button type="submit" class="btn btn-default">
+                                        <i class="glyphicon glyphicon-search"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </li>
+
+                </ul>
+            </div><!--/.nav-collapse -->
+
+        </nav>
+
+    </div>
+</div>
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+
+
+
+        <div class="item">
+
+            <img src="https://dnldqm9cso35u.cloudfront.net/public/system/studio_banner/4455/original/1058673_6796776_12_1490478920.jpg" class="banner-image" alt="Selam Entertainment" title="Selam Entertainment" style="height: 563.218px;"/>
+            <div class="carousel-caption">
+                <div class="container">
+                    <div class="caption-text">
+                        <h1>Selam Entertainment</h1>
+                        <p><a href="https://www.selamentertainment.com/user/register" class="joinnow btn btn-lg btn-primary">JOIN NOW</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="item">
+
+            <img src="https://dnldqm9cso35u.cloudfront.net/public/system/studio_banner/4455/original/Banner_Media_SupraFLEX_Header_1490478988.png" class="banner-image" alt="Selam Entertainment" title="Selam Entertainment" style="height: 563.218px;"/>
+            <div class="carousel-caption">
+                <div class="container">
+                    <div class="caption-text">
+                        <h1>Selam Entertainment</h1>
+                        <p><a href="https://www.selamentertainment.com/user/register" class="joinnow btn btn-lg btn-primary">JOIN NOW</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="item active">
+
+            <a href="http://selamentertainment.com/the-last-witch-hunter-2">
+                <img src="https://dnldqm9cso35u.cloudfront.net/public/system/studio_banner/4455/original/banner1-text-1600x600_1490479072.jpg" class="banner-image" alt="Selam Entertainment" title="Selam Entertainment" style="height: 563.218px;"/>   </a>
+            <div class="carousel-caption">
+                <div class="container">
+                    <div class="caption-text">
+                        <h1>Selam Entertainment</h1>
+                        <p><a href="https://www.selamentertainment.com/user/register" class="joinnow btn btn-lg btn-primary">JOIN NOW</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="item">
+
+            <img src="https://dnldqm9cso35u.cloudfront.net/public/system/studio_banner/4455/original/nun-banner-1600x600_1490479125.jpg" class="banner-image" alt="Selam Entertainment" title="Selam Entertainment" style="height: 563.218px;"/>
+            <div class="carousel-caption">
+                <div class="container">
+                    <div class="caption-text">
+                        <h1>Selam Entertainment</h1>
+                        <p><a href="https://www.selamentertainment.com/user/register" class="joinnow btn btn-lg btn-primary">JOIN NOW</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="item">
+
+            <img src="https://dnldqm9cso35u.cloudfront.net/public/system/studio_banner/4455/original/Kamu-II-2007-06-S-Red-Sea5_1490480011.jpg" class="banner-image" alt="Selam Entertainment" title="Selam Entertainment" style="height: 563.218px;"/>
+            <div class="carousel-caption">
+                <div class="container">
+                    <div class="caption-text">
+                        <h1>Selam Entertainment</h1>
+                        <p><a href="https://www.selamentertainment.com/user/register" class="joinnow btn btn-lg btn-primary">JOIN NOW</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div><!-- /.carousel -->
+
+
+<script type="text/javascript">
+    document.getElementById('background').play();
+    var vid = document.getElementById("background");
+    vid.ontimeupdate = function() {$('#myCarousel').carousel('pause'); };
+</script>
+
+
+
+
+
+
+<div class="container site_sdkIndex " id="page" style="position:relative; margin-top: 30px;">
+
+    <div class="parent_sec">
+        <!-- breadcrumbs -->
+        <div class="row">
+            <div class="col-sm-8 col-lg-8">
+                <h2 class="caps"> Latest Amharic </h2>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="slider responsive  slick-initialized slick-slider">
+                    <div aria-live="polite" class="slick-list draggable">
+                        <div class="slick-track" style="opacity: 1; width: 855px; left: 0px;" role="listbox">
+                            <div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 285px;" tabindex="-1" role="option" aria-describedby="slick-slide00">
+                                <div class="thumbnail listpos">
+                                    <div class="caption" style="display: none;">
+                                        <a href="javascript:void(0);" data-toggle="modal" data-purchase_type="" data-target="#loginModal" data-backdrop="static" data-movie_id="1743fdf62d102e31ef07b6c929353650" data-content-permalink="sicario-3" data-stream_id="0" data-isppv="0" class="playbtn" data-ctype="1" tabindex="0"></a>
+                                    </div>
+                                    <a href="https://www.selamentertainment.com/sicario-3" tabindex="0">
+                                        <img class="img-tshow lazy" alt="Sicario" title="Sicario" src="https://dnldqm9cso35u.cloudfront.net/public/system/posters/62023/standard/3_1490062403.jpg"/>
+                                    </a>
+                                    <div class="overtext popup_content" style="display: none;">
+                                        <div class="arrow"></div>
+                                        <div class="ptitle caps"><a href="https://www.selamentertainment.com/sicario-3" tabindex="0">Sicario</a></div>
+                                        <div class="stripe col-md-12">
+                                            <div class="col-md-8">
+                                                <span class="genre_list"> Action<span></span> </span>
+
+                                            </div>
+                                            <div class="col-md-4 text-right"></div>
+                                        </div>
+                                        <div class="clear"></div>
+                                        <div class="ptext">lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet </div>
+                                        <div class="clear"></div>
+
+
+                                    </div>
+                                </div>
+                                <h3 class="moviename">
+                                    <a href="https://www.selamentertainment.com/sicario-3" tabindex="0">Sicario</a></h3>
+                            </div>
+                            <div class="slick-slide slick-active" data-slick-index="1" aria-hidden="false" style="width: 285px;" tabindex="-1" role="option" aria-describedby="slick-slide01">
+                                <div class="thumbnail listpos">
+                                    <div class="caption">
+                                        <a href="javascript:void(0);" data-toggle="modal" data-purchase_type="" data-target="#loginModal" data-backdrop="static" data-movie_id="2069163ac382dd13b9e694cdbb5cbe5c" data-content-permalink="the-last-witch-hunter-2" data-stream_id="0" data-isppv="0" class="playbtn" data-ctype="1" tabindex="0"></a>
+                                    </div>
+                                    <a href="https://www.selamentertainment.com/the-last-witch-hunter-2" tabindex="0">
+                                        <img class="img-tshow lazy" alt="The Last Witch Hunter" title="The Last Witch Hunter" src="https://dnldqm9cso35u.cloudfront.net/public/system/posters/62025/standard/60799286_1489865518.jpeg"/>
+                                    </a>
+                                    <div class="overtext popup_content" style="display: none;">
+                                        <div class="arrow"></div>
+                                        <div class="ptitle caps">
+                                            <a href="https://www.selamentertainment.com/the-last-witch-hunter-2" tabindex="0">The Last Witch Hunter</a></div>
+                                        <div class="stripe col-md-12">
+                                            <div class="col-md-8">
+                                                <span class="genre_list"> ENGLISH<span></span> </span>
+
+                                            </div>
+                                            <div class="col-md-4 text-right"></div>
+                                        </div>
+                                        <div class="clear"></div>
+                                        <div class="ptext">lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet </div>
+                                        <div class="clear"></div>
+
+
+                                    </div>
+                                </div>
+                                <h3 class="moviename"><a href="https://www.selamentertainment.com/the-last-witch-hunter-2" tabindex="0">The Last Witch Hunter</a></h3>
+                            </div><div class="slick-slide slick-active" data-slick-index="2" aria-hidden="false" style="width: 285px;" tabindex="-1" role="option" aria-describedby="slick-slide02">
+                            <div class="thumbnail listpos">
+                                <div class="caption">
+                                    <a href="javascript:void(0);" data-toggle="modal" data-purchase_type="" data-target="#loginModal" data-backdrop="static" data-movie_id="78f08377c27fd22c069cc6ea77acdbe7" data-content-permalink="test-1" data-stream_id="0" data-isppv="0" class="playbtn" data-ctype="1" tabindex="0"></a>
+                                </div>
+                                <a href="https://www.selamentertainment.com/test-1" tabindex="0">
+                                    <img class="img-tshow lazy" alt="Tshifto" title="Tshifto" src="https://dnldqm9cso35u.cloudfront.net/public/system/posters/62858/standard/xhifto_1490756553.jpg"/>
+                                </a>
+                                <div class="overtext last-div" style="display: none;">
+                                    <div class="arrow"></div>
+                                    <div class="ptitle caps"><a href="https://www.selamentertainment.com/test-1" tabindex="0">Tshifto</a></div>
+                                    <div class="stripe col-md-12">
+                                        <div class="col-md-8">
+
+                                        </div>
+                                        <div class="col-md-4 text-right">2016</div>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div class="ptext">The OAuth 2.0 provider mechanism is responsible for exposing OAuth 2.0 protected </div>
+                                    <div class="clear"></div>
+
+
+                                </div>
+                            </div>
+                            <h3 class="moviename"><a href="https://www.selamentertainment.com/test-1" tabindex="0">Tshifto</a></h3>
+                        </div></div></div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="parent_sec">
+        <!-- breadcrumbs -->
+        <div class="row">
+            <div class="col-sm-8 col-lg-8"><h2 class="caps"> Latest Tigrigna </h2></div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="slider responsive  slick-initialized slick-slider">
+                    <div aria-live="polite" class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 1140px; left: 0px;" role="listbox"><div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 285px;" tabindex="-1" role="option" aria-describedby="slick-slide10">
+                        <div class="thumbnail listpos">
+                            <div class="caption">
+                                <a href="javascript:void(0);" data-toggle="modal" data-purchase_type="" data-target="#loginModal" data-backdrop="static" data-movie_id="ac1be25e605767124f18eac1b949241b" data-content-permalink="tsetser" data-stream_id="0" data-isppv="0" class="playbtn" data-ctype="1" tabindex="0"></a>
+                            </div>
+                            <a href="https://www.selamentertainment.com/tsetser" tabindex="0">
+                                <img class="img-tshow lazy" alt="Tsetser" title="Tsetser" src="https://dnldqm9cso35u.cloudfront.net/public/system/posters/62661/standard/1280x720-ciq_1488947591_1489865571.jpg"/>
+                            </a>
+                            <div class="overtext popup_content" style="display: none;">
+                                <div class="arrow"></div>
+                                <div class="ptitle caps"><a href="https://www.selamentertainment.com/tsetser" tabindex="0">Tsetser</a></div>
+                                <div class="stripe col-md-12">
+                                    <div class="col-md-8">
+                                        <span class="genre_list"> Adventure<span>,</span> </span>
+
+                                    </div>
+                                    <div class="col-md-4 text-right">2017</div>
+                                </div>
+                                <div class="clear"></div>
+                                <div class="ptext">When you enable 2-Step Verification, you add an extra layer of security to your </div>
+                                <div class="clear"></div>
+
+
+                            </div>
+                        </div>
+                        <h3 class="moviename"><a href="https://www.selamentertainment.com/tsetser" tabindex="0">Tsetser</a></h3>
+                    </div><div class="slick-slide slick-active" data-slick-index="1" aria-hidden="false" style="width: 285px;" tabindex="-1" role="option" aria-describedby="slick-slide11">
+                        <div class="thumbnail listpos">
+                            <div class="caption">
+                                <a href="javascript:void(0);" data-toggle="modal" data-purchase_type="" data-target="#loginModal" data-backdrop="static" data-movie_id="2069163ac382dd13b9e694cdbb5cbe5c" data-content-permalink="the-last-witch-hunter-2" data-stream_id="0" data-isppv="0" class="playbtn" data-ctype="1" tabindex="0"></a>
+                            </div>
+                            <a href="https://www.selamentertainment.com/the-last-witch-hunter-2" tabindex="0">
+                                <img class="img-tshow lazy" alt="The Last Witch Hunter" title="The Last Witch Hunter" src="https://dnldqm9cso35u.cloudfront.net/public/system/posters/62025/standard/60799286_1489865518.jpeg"/>
+                            </a>
+                            <div class="overtext popup_content" style="display: none;">
+                                <div class="arrow"></div>
+                                <div class="ptitle caps"><a href="https://www.selamentertainment.com/the-last-witch-hunter-2" tabindex="0">The Last Witch Hunter</a></div>
+                                <div class="stripe col-md-12">
+                                    <div class="col-md-8">
+                                        <span class="genre_list"> ENGLISH<span>,</span> </span>
+
+                                    </div>
+                                    <div class="col-md-4 text-right"></div>
+                                </div>
+                                <div class="clear"></div>
+                                <div class="ptext">lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet </div>
+                                <div class="clear"></div>
+
+
+                            </div>
+                        </div>
+                        <h3 class="moviename"><a href="https://www.selamentertainment.com/the-last-witch-hunter-2" tabindex="0">The Last Witch Hunter</a></h3>
+                    </div>
+                        <div class="slick-slide slick-active" data-slick-index="2" aria-hidden="false" style="width: 285px;" tabindex="-1" role="option" aria-describedby="slick-slide12">
+                            <div class="thumbnail listpos">
+                                <div class="caption">
+                                    <a href="javascript:void(0);" data-toggle="modal" data-purchase_type="" data-target="#loginModal" data-backdrop="static" data-movie_id="78f08377c27fd22c069cc6ea77acdbe7" data-content-permalink="test-1" data-stream_id="0" data-isppv="0" class="playbtn" data-ctype="1" tabindex="0"></a>
+                                </div>
+                                <a href="https://www.selamentertainment.com/test-1" tabindex="0">
+                                    <img class="img-tshow lazy" alt="Tshifto" title="Tshifto" src="https://dnldqm9cso35u.cloudfront.net/public/system/posters/62858/standard/xhifto_1490756553.jpg"/>
+                                </a>
+                                <div class="overtext last-div" style="display: none;">
+                                    <div class="arrow"></div>
+                                    <div class="ptitle caps"><a href="https://www.selamentertainment.com/test-1" tabindex="0">Tshifto</a></div>
+                                    <div class="stripe col-md-12">
+                                        <div class="col-md-8">
+
+                                        </div>
+                                        <div class="col-md-4 text-right">2016</div>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div class="ptext">The OAuth 2.0 provider mechanism is responsible for exposing OAuth 2.0 protected </div>
+                                    <div class="clear"></div>
+
+
+                                </div>
+                            </div>
+                            <h3 class="moviename"><a href="https://www.selamentertainment.com/test-1" tabindex="0">Tshifto</a></h3>
+                        </div><div class="slick-slide slick-active" data-slick-index="3" aria-hidden="false" style="width: 285px;" tabindex="-1" role="option" aria-describedby="slick-slide13">
+                            <div class="thumbnail listpos">
+                                <div class="caption">
+
+                                </div>
+                                <a href="https://www.selamentertainment.com/how-to-eat-worms" tabindex="0">
+                                    <img class="img-tshow lazy" alt="Wezam Gualu" title="Wezam Gualu" src="https://dnldqm9cso35u.cloudfront.net/public/system/posters/63247/standard/wezam-galu_1490756341.jpg"/>
+                                </a>
+                                <div class="overtext last-div" style="display: none;">
+                                    <div class="arrow"></div>
+                                    <div class="ptitle caps"><a href="https://www.selamentertainment.com/how-to-eat-worms" tabindex="0">Wezam Gualu</a></div>
+                                    <div class="stripe col-md-12">
+                                        <div class="col-md-8">
+                                            <span class="genre_list"> Drama<span>,</span> </span>
+
+                                        </div>
+                                        <div class="col-md-4 text-right">2017</div>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div class="ptext">On his first day at a new school, eleven-year-old Billy goes up against the </div>
+                                    <div class="clear"></div>
+
+
+                                </div>
+                            </div>
+                            <h3 class="moviename"><a href="https://www.selamentertainment.com/how-to-eat-worms" tabindex="0">Wezam Gualu</a></h3>
+                        </div></div></div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+</div>
+<div class="clear"></div>
+<footer>
+    <div class="container border-top">
+        <div class="footer-logo"><a href="https://www.selamentertainment.com">
+            <img src="https://dnldqm9cso35u.cloudfront.net/public/afromovie/logos/logo_1490292302.png" alt="Selam Entertainment" title="Selam Entertainment"/></a></div>
+        <div class="copyright">
+            <p>
+                <a href="https://www.selamentertainment.com/agreement-page" title="Send Your Video">Send Your Video</a>
+
+                <a href="https://www.selamentertainment.com/about-us" title="About Us">About Us</a>
+
+                <a href="https://www.selamentertainment.com/contactus" title="Contact Us">Contact Us</a>
+                <a href="https://www.selamentertainment.com/blog" title="Blog">Blog</a>
+                <a href="https://www.selamentertainment.com/faqs" title="Help Center">Help Center</a>
+
+
+            </p>
+            <p class="copy"></p>
+        </div>
+
+
+
+
+        <div class="social-wrap">
+            <ul class="social-network">
+                <li><a class="facebook" href="https://www.facebook.com/Selamentertainments/?ref=aymt_homepage_panel" target="_blank">Facebook</a></li>
+
+
+            </ul>
+            <ul class="list-inline text-right appStoreLink">
+                <li>    </li><li></li></ul>
+            <div class="newsletter"></div>
+        </div>
+
+
+
+    </div>
+</footer>
+<!-- Login Modal -->
+<div id="loginModal" class="modal fade login-popu">
+    <div class="modal-dialog">
+        <div class="modal-content" style="position: relative;">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title">Oops! only Registered users can view this content!</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row-fluid popup_bottom">
+
+                    <input id="movie_id" value="" type="hidden"/>
+                    <input id="stream_id" value="" type="hidden"/>
+                    <input id="season_id" value="" type="hidden"/>
+                    <input id="isppv" value="" type="hidden"/>
+                    <input id="videotype" value="" type="hidden"/>
+                    <input id="content-permalink" value="" type="hidden"/>
+                    <input id="content-type-permalink" value="" type="hidden"/>
+                    <input id="is_ppv_bundle" value="" type="hidden"/>
+                    <input id="isadv" value="" type="hidden"/>
+                    <div class="col-md-12" id="login_form_div"/>
+                    <input value="" id="play_url" type="hidden"/>
+                    <input value="" id="to_play" type="hidden"/>
+
+                    <form name="login_form" id="login_form" method="post" class="form-horizontal" action="javascript:void(0);" novalidate="novalidate">
+                        <div id="login_loading" class="loader" style="display: none;"></div>
+
+                        <div class="form-group">
+                            <h4>ALREADY REGISTERED?</h4>
+                            <div id="login_errors" class="error"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <ul class="social-icons invert">
+                                <li><a href="javascript:void(0);" data-url="https://www.facebook.com/v2.8/dialog/oauth?client_id=1128636273912059&amp;state=51cb7dc475d6d21fca92d9e815e5f5a1&amp;response_type=code&amp;sdk=php-sdk-5.0.0&amp;redirect_uri=https%3A%2F%2Fwww.selamentertainment.com%2Flogin%2FfacebookAuth%2F&amp;scope=email" data-login="0" class="facebook facebook_login social_login"></a></li>
+
+                            </ul>
+                        </div>
+                        <div class="form-group">
+                            <label for="username">Enter your Email Address</label>
+                            <input name="LoginForm[email]" id="username" placeholder="Enter Your Email" autocomplete="off" class="form-control" value="" type="email"/>
+                        </div>
+                        <div class="form-group ">
+                            <label for="password">Enter your Password</label>
+                            <div class="controls">
+                                <input name="LoginForm[password]" id="password" placeholder="Password" autocomplete="off" class="form-control" type="password"/>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="form-group ">
+                            <div class="controls">
+                                <button type="submit" class="btn btn-primary btn-green-small" name="login_submit" id="login-btn">Login</button>
+                            </div>
+                        </div>
+                        <div class="form-group ">
+                            <div class="controls">
+                                <div class="pull-left"><a class="link-ylw txt-right" href="javascript:void(0);" style="color: blue;" onclick="showRegister();">Register</a></div>
+                                <div class="pull-right"><a class="link-ylw txt-right" href="https://www.selamentertainment.com/user/forgot" style="color: blue;">Forgot Password?</a></div>
+                            </div>
+                        </div>
+                        <input name="csrfToken" id="csrfToken" value="WwY+wAIjMWgMmCXGzx/Xuc2OOV1/K6t8kyS6AHnEJ7k=" type="hidden"/>
+                    </form>
+                </div>
+                <div class="clearfix"></div>
+
+                <div class="col-md-12" id="register_form_div" style="display: none;">
+                    <form id="register_form" name="register_form" method="POST" class="form-horizontal" novalidate="novalidate">
+                        <input name="csrfToken" id="csrfToken" value="WwY+wAIjMWgMmCXGzx/Xuc2OOV1/K6t8kyS6AHnEJ7k=" type="hidden"/>
+                        <div class="form-group">
+                            <h4>NEW MEMBER</h4>
+                            <div id="register_loading" class="loader"></div>
+                            <div id="register_errors" class="error text-center"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input required="" name="data[name]" id="fullname" placeholder="Enter Your Full Name" autocomplete="off" class="form-control" aria-required="true" type="text"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="username">Enter your Email Address</label>
+                            <input required="" name="data[email]" id="email" placeholder="Enter Your Email" autocomplete="off" class="form-control" aria-required="true" type="email"/>
+                        </div>
+                        <div class="form-group ">
+                            <label for="password">Enter your Password</label>
+                            <div class="controls">
+                                <input required="" name="data[password]" id="join_password" placeholder="Password" autocomplete="off" class="form-control" aria-required="true" type="password"/>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="form-group ">
+                            <div class="controls pull-left">
+                                <button type="submit" class="btn btn-primary btn-green-small" name="register_submit" id="register-btn">SIGNUP</button>
+                            </div>
+                            <div class="pull-right"><a class="link-ylw txt-right" href="javascript:void(0);" style="color: blue;" onclick="showLogin();">Login</a></div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </form>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="ppvModal" class="modal fade login-popu" data-backdrop="static" data-keyboard="false"></div>
+<script type="text/javascript" src="https://www.selamentertainment.com/js/themes/loginpopup.js"></script>
+
+<div id="ppvModal" class="modal fade login-popu" data-backdrop="static" data-keyboard="false">
+
+</div>
+<div class="loader_cart">
+    <div class="loader-body large">
+        <div class="msg">
+            Loading...
+        </div>
+    </div>
+    <div class="loader-overlay">
+    </div>
+</div>
+
+<script src="https://www.selamentertainment.com/common/js/byod.js"></script>
+<script type="text/javascript" src="https://www.selamentertainment.com/common/js/bootstrap-hover-dropdown.js"></script>
+<script type="text/javascript" src="https://www.selamentertainment.com/common/js/bootstrap-hover-dropdown.js"></script>
+<script type="text/javascript" src="https://www.selamentertainment.com/common/js/jquery.cookie-min.js"></script>
+<script type="text/javascript" src="https://www.selamentertainment.com/common/js/bootstrap-hover-dropdown.js"></script>
+<script type="text/javascript">
+    // very simple to use!
+    $(document).ready(function() {
+        if(isMobile()){
+            $('.dropdown').find('.dropdown-toggle').attr('data-toggle', 'dropdown');
+            $('.dropdown').find('.dropdown-toggle').removeClass('js-activated disabled');
+        }
+        else{
+            $('.js-activated').dropdownHover().dropdown();
+        }
+    });
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"13228f579d","applicationID":"12555437","transactionName":"MwdUYhBSW0sEB0MKXwpNd1UWWlpWSjdeF1UnDVhCEFxZVAAWGBBUDytYUgdL","queueTime":0,"applicationTime":2086,"atts":"H0BXFFhISEU=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+<ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-1" tabindex="0" style="display: none;"></ul>
+<span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span>
+
+</body>
+
+
+
+</html>
